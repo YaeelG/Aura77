@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aura77 Uñas & Bijou · Catálogo</title>
+  <meta name="description" content="Uñas press on y bijou artesanal. Armá tu pedido y cordinamos la entrega de tu pedido por WhatsApp." />
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-top">
+      <a href="#inicio" class="logo" aria-label="Ir al inicio">
+        <span class="logo-mark">✧</span>
+        <span class="logo-text">coquette<em>.</em></span>
+      </a>
+
+      <div class="search-wrap">
+        <svg class="icon icon-search" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M20 20L16.5 16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Buscar por nombre, código o descripción…"
+          autocomplete="off"
+        />
+      </div>
+
+      <button class="cart-toggle" id="cart-toggle" aria-label="Abrir carrito">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 4H5L5.6 6M5.6 6H21L18.5 14H7.5L5.6 6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <circle cx="9" cy="19" r="1.4" fill="currentColor"/>
+          <circle cx="17" cy="19" r="1.4" fill="currentColor"/>
+        </svg>
+        <span class="cart-count" id="cart-count">0</span>
+      </button>
+    </div>
+
+    <nav class="category-nav" id="category-nav" aria-label="Categorías">
+      <!-- Las categorías se generan dinámicamente desde filters.js -->
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-blob" aria-hidden="true"></div>
+    <p class="hero-eyebrow">‧ ₊ ˚ ✧ [   Tu estilo, tu esencia   ] ✧ ˚ ₊ ‧</p>
+    <h1 class="hero-title">Uñas que enamoran, <br> accesorios que brillan</h1>
+    <p class="hero-subtitle">
+      Encontrá diseños listos para usar y bijou hecha a mano para crear combinaciones únicas, fáciles de llevar y con mucho estilo.
+    </p>
+    <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+  </section>
+
+  <!-- Filtros ===== -->
+  <main id="catalogo" class="catalog-section">
+
+    <div class="toolbar">
+      <div class="toolbar-row">
+        <h2 class="section-title">Catálogo</h2>
+    
+        <button class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters-panel">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 6H20M8 12H16M11 18H13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          Filtros
+        </button>
+      </div>
+
+      <div class="filters-panel" id="filters-panel">
+        <div class="filter-group">
+          <span class="filter-label">Color</span>
+          <div class="chip-group" id="color-filters">
+            <!-- Se genera las etiquetas dinámicamente desde filters.js -->
+          </div>
+        </div>
+        <button class="btn btn-ghost btn-small" id="clear-filters">Limpiar filtros</button>
+      </div>
+    </div>
+
+    <p class="results-count" id="results-count"></p>
+
+    <section class="product-grid" id="product-grid" aria-live="polite">
+      <!-- Se genera dinámicamente desde ui.js -->
+    </section>
+
+    <p class="empty-state" id="empty-state" hidden>
+      No encontramos productos con esos filtros （T～T；。）<br/>
+      Probá con otra búsqueda o quitá algún filtro.
+    </p>
+  </main>
+
+ <!-- Footer -->
+  <footer class="site-footer">
+    <p>Seguinos en (っ◕‿◕)っ <a href="https://www.tiktok.com/@aura77.cosmetica?_r=1&_t=ZS-98cHWvtsXxa">Titkok</a> ・ <a href="https://www.instagram.com/aura77.cosmetica?igsh=MWxjZ3hybGd1MWQ1dw==" >Instagram</a></p>
+    <p class="footer-small">© <span id="fecha"></span> Aura77 Comética</p>
+  </footer>
+
+  <!-- Carrito -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel" aria-label="Carrito de compras">
+    <div class="cart-header">
+      <h2>Tu carrito</h2>
+      <button class="cart-close" id="cart-close" aria-label="Cerrar carrito">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <!-- Se generan los productos guardados en el carrito dinámicamente desde ui.js -->
+    </div>
+
+    <p class="cart-empty" id="cart-empty">
+      Tu carrito está vacío (°ロ°) !? <br/>
+      Agregá algún producto que te enamore.
+    </p>
+
+    <div class="cart-footer" id="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span class="cart-total" id="cart-total">$0</span>
+      </div>
+      <button class="btn btn-primary btn-full" id="checkout-btn">
+        Enviar pedido por WhatsApp
+      </button>
+      <button class="btn btn-ghost btn-full btn-small" id="clear-cart-btn">
+        Vaciar carrito
+      </button>
+    </div>
+  </aside>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/whatsapp.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
