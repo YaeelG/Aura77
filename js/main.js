@@ -49,4 +49,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // Actualikzar carrito
   window.addEventListener("cart:updated", () => UI.renderCart());
 });
-
