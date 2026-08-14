@@ -36,6 +36,7 @@ const WhatsApp = {
 
     const message = this.buildMessage(cartItems);
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank", "noopener");
+    // window.open(url, "_blank", "noopener");    Lo reemplazo por que no está abriendo el wpp en celular
+		window.location.href = url; 
   },
 };
