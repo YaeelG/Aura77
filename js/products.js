@@ -455,7 +455,7 @@ const PRODUCTS = [
   },
   {
     id: "P012",
-    name: "Pulsera Lilac",
+    name: "Pulsera Navy",
     price: 3500,
     category: "bijou",
     categoryLabel: "Bijou",
