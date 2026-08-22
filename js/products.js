@@ -28,11 +28,42 @@ const CATEGORIES = [
   { id: "todas", label: "Todas" },
   { id: "presson", label: "Press On" },
   { id: "bijou", label: "Bijou" },
+	{ id: "kits_presson", label: "Kits Press on"},
 ];
 
 // PRODUCTOS
 // Listado de productos con sus respectivas etiquetas, imágenes, colores, etc.
 const PRODUCTS = [
+	{
+    id: "K001",
+    name: "Kit de colocación Press on, método stickers",
+    price: 3000,
+    category: "kits_presson",
+    categoryLabel: "Kits Press on",
+    colors: [],
+    image: "assets/img/K001.webp",
+    description: "Kit de instalación, colocación, para pegar, de uñas press on nails, postizas, método con stickers, pegatinas",
+  },
+	{
+    id: "K002",
+    name: "Kit de colocación Press on, método pegamento",
+    price: 3500,
+    category: "kits_presson",
+    categoryLabel: "Kits Press on",
+    colors: [],
+    image: "assets/img/K002.webp",
+    description: "Kit de instalación, colocación, para pegar, de uñas press on nails, postizas, método con stickers, pegamento",
+  },
+	{
+    id: "K003",
+    name: "Kit de colocación Press on, método mixto",
+    price: 4000,
+    category: "kits_presson",
+    categoryLabel: "Kits Press on",
+    colors: [],
+    image: "assets/img/K003.webp",
+    description: "Kit de instalación, colocación, para pegar, de uñas press on nails, postizas, método con stickers, pegatinas, pegamento",
+  },
   {
     id: "U001",
     name: "Press On Sunset Pop",

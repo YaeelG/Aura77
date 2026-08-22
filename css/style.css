@@ -274,6 +274,22 @@ input {
   to { opacity: 1; transform: translateY(0); }
 }
 
+
+/* Banners/anuncios */
+.anuncio {
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+	margin: 24 auto;
+}
+
+.anuncio img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
 /* Catálogo */
 
 .catalog-section {
