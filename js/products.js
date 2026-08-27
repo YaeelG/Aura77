@@ -516,8 +516,8 @@ const PRODUCTS = [
   },
   {
     id: "P015",
-    name: "Set pulseras x2 Sienna",
-    price: 5000,
+    name: "Set pulseras x3 Sienna",
+    price: 6900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Plateado", "Nude"],
