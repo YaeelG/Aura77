@@ -154,6 +154,7 @@ const PRODUCTS = [
     image: "assets/img/P007.webp",
     description: "Pulseras, mostacillas, bijou, bijouterie, estrella, discos, fimos, arcilla polimérica, caritas felices",
 	},
+	/*
   {
     id: "U009",
     name: "Press On Praia Brava",
@@ -164,6 +165,7 @@ const PRODUCTS = [
     image: "assets/img/U009.webp",
     description: "Set de uñas press on con flores, hibisco, flor hawaiana, primavera, verano, francesitas, french, playa",
   },
+	*/
   {
     id: "U010",
     name: "Press On Canasvieiras",
@@ -277,7 +279,7 @@ const PRODUCTS = [
   {
     id: "U019",
     name: "Press On Francescitas Pies. Color a elección",
-    price: 5000,
+    price: 3200,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
@@ -287,7 +289,7 @@ const PRODUCTS = [
   {
     id: "U019-1",
     name: "Press On Francescitas Pies",
-    price: 5000,
+    price: 3200,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
@@ -297,7 +299,7 @@ const PRODUCTS = [
   {
     id: "U019-2",
     name: "Press On Francescitas Pies",
-    price: 5000,
+    price: 3200,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
@@ -307,7 +309,7 @@ const PRODUCTS = [
   {
     id: "U019-3",
     name: "Press On Francescitas Pies",
-    price: 5000,
+    price: 3200,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
@@ -317,7 +319,7 @@ const PRODUCTS = [
   {
     id: "U019-4",
     name: "Press On Francescitas Pies",
-    price: 5000,
+    price: 3200,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
