@@ -542,7 +542,7 @@ const PRODUCTS = [
     price: 3500,
     category: "bijou",
     categoryLabel: "Bijou",
-    colors: ["Blue", "Blanco"],
+    colors: ["Azul", "Blanco"],
     image: "assets/img/P017.webp",
     description: "Pulseras, bijou, bijouterie, transparente, y2k, perlas, celeste",
   },
