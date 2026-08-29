@@ -369,7 +369,7 @@ const PRODUCTS = [
   {
     id: "U023",
     name: "Press On Francescitas Pies Floral",
-    price: 5000,
+    price: 3200,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
