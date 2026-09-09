@@ -1,6 +1,6 @@
 /* 
-	BASE DE DATOS 
-	- Productos y Colores -
+  BASE DE DATOS 
+  - Productos y Colores -
 */
 
 
@@ -19,7 +19,7 @@ const COLOR_HEX = {
   "Nude": "#f7d98c",
   "Marron": "#874421",
   "Plateado": "#c0c0c0",
-	"Violeta": "#7f00ff"
+  "Violeta": "#7f00ff"
 };
 
 // CATEGORIAS
@@ -28,13 +28,14 @@ const CATEGORIES = [
   { id: "todas", label: "Todas" },
   { id: "presson", label: "Press On" },
   { id: "bijou", label: "Bijou" },
-	{ id: "kits_presson", label: "Kits Press on"},
+  { id: "acero", label: "Acero" },
+  { id: "kits_presson", label: "Kits Press on" },
 ];
 
 // PRODUCTOS
 // Listado de productos con sus respectivas etiquetas, imágenes, colores, etc.
 const PRODUCTS = [
-	{
+  {
     id: "K001",
     name: "Kit de colocación Press on, método stickers",
     price: 3000,
@@ -44,7 +45,7 @@ const PRODUCTS = [
     image: "assets/img/K001.webp",
     description: "Kit de instalación, colocación, para pegar, de uñas press on nails, postizas, método con stickers, pegatinas",
   },
-	{
+  {
     id: "K002",
     name: "Kit de colocación Press on, método pegamento",
     price: 3500,
@@ -54,7 +55,7 @@ const PRODUCTS = [
     image: "assets/img/K002.webp",
     description: "Kit de instalación, colocación, para pegar, de uñas press on nails, postizas, método con stickers, pegamento",
   },
-	{
+  {
     id: "K003",
     name: "Kit de colocación Press on, método mixto",
     price: 4000,
@@ -153,8 +154,8 @@ const PRODUCTS = [
     colors: ["Rosa", "Naranja"],
     image: "assets/img/P007.webp",
     description: "Pulseras, mostacillas, bijou, bijouterie, estrella, discos, fimos, arcilla polimérica, caritas felices",
-	},
-	/*
+  },
+  /*
   {
     id: "U009",
     name: "Press On Praia Brava",
@@ -165,7 +166,7 @@ const PRODUCTS = [
     image: "assets/img/U009.webp",
     description: "Set de uñas press on con flores, hibisco, flor hawaiana, primavera, verano, francesitas, french, playa",
   },
-	*/
+  */
   {
     id: "U010",
     name: "Press On Canasvieiras",
@@ -555,6 +556,86 @@ const PRODUCTS = [
     colors: ["Blanco"],
     image: "assets/img/P018.webp",
     description: "Pulseras, bijou, bijouterie, transparente, y2k, perlas",
+  },
+  {
+    id: "P019",
+    name: "Set pulseras x3 + Chocker Fairycore",
+    price: 9900,
+    category: "bijou",
+    categoryLabel: "Bijou",
+    colors: ["Plateado", "Blanco", "Rojo", "Rosa"],
+    image: "assets/img/P019.webp",
+    description: "Pulseras, collares, collar, bijou, bijouterie, transparente, metalico, coquette, y2k, femenino, plateado, croma, metal, mariposa, estrella, perlas, delicado",
+  },
+  {
+    id: "A001",
+    name: "Anillo Chunky Acero Dorado con Brillos 19mm",
+    price: 5900,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Dorado"],
+    image: "assets/img/A001.webp",
+    description: "acero quirurjico, inoxidable, waterproof, a prueba de agua, dorado",
+  },
+  {
+    id: "A002",
+    name: "Anillo Acero Dorado con Piedritas 17mm",
+    price: 5900,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Dorado"],
+    image: "assets/img/A002.webp",
+    description: "acero quirurjico, inoxidable, waterproof, a prueba de agua, dorado",
+  },
+  {
+    id: "A002",
+    name: "Anillo Acero Dorado con Piedritas 19mm",
+    price: 5900,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Dorado"],
+    image: "assets/img/A002.webp",
+    description: "acero quirurjico, inoxidable, waterproof, a prueba de agua, dorado",
+  },
+  {
+    id: "A003",
+    name: "Collar Ojo Multicolor de Acero Blanco",
+    price: 8600,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Plateado"],
+    image: "assets/img/A003.webp",
+    description: "dije, acero quirurjico, inoxidable, waterproof, a prueba de agua, blanco, plateado",
+  },
+  {
+    id: "A004",
+    name: "Cadena Clapton Acero Dorado 70cm",
+    price: 5600,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Dorado"],
+    image: "assets/img/A004.webp",
+    description: "collar, cadena, unisex, hombre, mujer, acero quirurjico, inoxidable, waterproof, a prueba de agua, dorado",
+  },
+  {
+    id: "A005",
+    name: "Collar Panal Gota Acero Dorado",
+    price: 8900,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Dorado"],
+    image: "assets/img/A005.webp",
+    description: "dije, acero quirurjico, inoxidable, waterproof, a prueba de agua, Dorado",
+  },
+  {
+    id: "A006",
+    name: "Collar Panal Semiesfera Dorado",
+    price: 8900,
+    category: "acero",
+    categoryLabel: "Acero",
+    colors: ["Dorado"],
+    image: "assets/img/A006.webp",
+    description: "dije, acero quirurjico, inoxidable, waterproof, a prueba de agua, Dorado",
   },
 
 ];
