@@ -208,12 +208,12 @@ input {
 
 .category-nav {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 8px;
   padding: 0 20px 12px;
   max-width: 1200px;
   margin: 0 auto;
-  overflow-x: auto;
+  overflow-x: scroll;
   scrollbar-width: none;
 }
 
