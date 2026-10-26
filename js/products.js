@@ -39,7 +39,7 @@ const PRODUCTS = [
   {
     id: "U030",
     name: "Press On Strawberry Shortcake",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa"],
@@ -49,7 +49,7 @@ const PRODUCTS = [
   {
     id: "U031",
     name: "Press On Harmonia",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa"],
@@ -59,7 +59,7 @@ const PRODUCTS = [
   {
     id: "U032",
     name: "Press On Vino Floral",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rojo", "Nude", "Dorado"],
@@ -69,7 +69,7 @@ const PRODUCTS = [
   {
     id: "U033",
     name: "Press On Supernova",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Dorado"],
@@ -79,7 +79,7 @@ const PRODUCTS = [
   {
     id: "U034",
     name: "Press On Lumi",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa"],
@@ -89,7 +89,7 @@ const PRODUCTS = [
   {
     id: "K001",
     name: "Kit de colocación Press on, método stickers",
-    price: 3000,
+    price: 2990,
     category: "kits_presson",
     categoryLabel: "Kits Press on",
     colors: [],
@@ -99,7 +99,7 @@ const PRODUCTS = [
   {
     id: "K002",
     name: "Kit de colocación Press on, método pegamento",
-    price: 3500,
+    price: 3490,
     category: "kits_presson",
     categoryLabel: "Kits Press on",
     colors: [],
@@ -109,7 +109,7 @@ const PRODUCTS = [
   {
     id: "K003",
     name: "Kit de colocación Press on, método mixto",
-    price: 4000,
+    price: 3990,
     category: "kits_presson",
     categoryLabel: "Kits Press on",
     colors: [],
@@ -117,9 +117,19 @@ const PRODUCTS = [
     description: "Kit de instalación, colocación, para pegar, de uñas press on nails, postizas, método con stickers, pegatinas, pegamento",
   },
   {
+    id: "P020",
+    name: "Collar Angelic",
+    price: 7900,
+    category: "bijou",
+    categoryLabel: "Bijou",
+    colors: ["Plateado", "Blanco", "Azul"],
+    image: "assets/img/P020.webp",
+    description: "Collares, bijou, bijouterie, transparente, metalico, acero quirurgico, inoxidable, y2k, plateado, croma, metal, alas, angel, celeste y blanco, perla",
+  },
+  {
     id: "U001",
     name: "Press On Sunset Pop",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa", "Naranja", "Amarillo"],
@@ -139,7 +149,7 @@ const PRODUCTS = [
   {
     id: "U002",
     name: "Press On Golden Peach",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa", "Naranja", "Amarillo"],
@@ -149,7 +159,7 @@ const PRODUCTS = [
   {
     id: "U003",
     name: "Press On Verano Intenso",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Rojo", "Amarillo"],
@@ -159,7 +169,7 @@ const PRODUCTS = [
   {
     id: "U004",
     name: "Press On Hibiscus Aura",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Naranja", "Rosa", "Nude", "Blanco"],
@@ -169,7 +179,7 @@ const PRODUCTS = [
   {
     id: "U005",
     name: "Press On Flor salvaje",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Marron", "Nude", "Blanco", "Dorado"],
@@ -179,7 +189,7 @@ const PRODUCTS = [
   {
     id: "U006",
     name: "Press On Icona",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa", "Nude", "Dorado"],
@@ -189,12 +199,22 @@ const PRODUCTS = [
   {
     id: "U008",
     name: "Press On Aura Nácar",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Azul", "Blanco", "Nude", "Dorado"],
     image: "assets/img/U008.webp",
     description: "Set de uñas press on con perlas, francesitas, french, playa, agua, marino, caracoles, bucios, efecto degradado",
+  },
+  {
+    id: "P021",
+    name: "Chocker Whisper",
+    price: 4900,
+    category: "bijou",
+    categoryLabel: "Bijou",
+    colors: ["Plateado", "Blanco"],
+    image: "assets/img/P021.webp",
+    description: "Collares, bijou, bijouterie, metalico, acero quirurgico, inoxidable, y2k, plateado, metal, alas, angel, perla, mostacillas",
   },
   {
     id: "P007",
@@ -210,7 +230,7 @@ const PRODUCTS = [
   {
     id: "U009",
     name: "Press On Praia Brava",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Azul", "Nude", "Blanco"],
@@ -221,7 +241,7 @@ const PRODUCTS = [
   {
     id: "U010",
     name: "Press On Canasvieiras",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Verde", "Nude", "Blanco"],
@@ -241,7 +261,7 @@ const PRODUCTS = [
   {
     id: "U011",
     name: "Press On Gata de Praia",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Marron", "Rojo", "Nude", "Blanco"],
@@ -251,7 +271,7 @@ const PRODUCTS = [
   {
     id: "U012",
     name: "Press On Oro & Mar",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Azul", "Dorado", "Nude", "Blanco"],
@@ -261,7 +281,7 @@ const PRODUCTS = [
   {
     id: "U013",
     name: "Press On Bruma Verde",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Verde", "Azul", "Dorado", "Nude", "Blanco"],
@@ -281,7 +301,7 @@ const PRODUCTS = [
   {
     id: "U014",
     name: "Press On Selvática",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Verde", "Nude", "Dorado", "Plateado"],
@@ -301,7 +321,7 @@ const PRODUCTS = [
   {
     id: "U015",
     name: "Press On Jardín de Té",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Amarillo", "Nude", "Azul"],
@@ -311,7 +331,7 @@ const PRODUCTS = [
   {
     id: "U016",
     name: "Press On Alba",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Blanco", "Nude", "Azul"],
@@ -319,9 +339,19 @@ const PRODUCTS = [
     description: "Set de uñas press on flores, floral, porcelana, francesitas, french, moños, hojas, clásicas, japonés, chino, ceramica, delicada, oriental",
   },
   {
+    id: "P022",
+    name: "Collar Nocturna",
+    price: 7900,
+    category: "bijou",
+    categoryLabel: "Bijou",
+    colors: ["Plateado", "Blanco", "Negro"],
+    image: "assets/img/P022.webp",
+    description: "Collares, bijou, bijouterie, metalico, acero quirurgico, inoxidable, y2k, plateado, metal, estrella, perla, vidrio",
+  },
+  {
     id: "U017",
     name: "Press On Azucena",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Blanco", "Nude", "Azul"],
@@ -331,7 +361,7 @@ const PRODUCTS = [
   {
     id: "U018",
     name: "Press On Soleil",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Amarillo", "Nude", "Rosa", "Naranja"],
@@ -391,7 +421,7 @@ const PRODUCTS = [
   {
     id: "U0020",
     name: "Press On Margot",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Amarillo", "Nude", "Azul"],
@@ -401,7 +431,7 @@ const PRODUCTS = [
   {
     id: "U0021",
     name: "Press On Costa",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Amarillo", "Nude", "Dorado"],
@@ -411,7 +441,7 @@ const PRODUCTS = [
   {
     id: "U0022",
     name: "Press On Maré",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Azul", "Nude", "Dorado"],
@@ -421,7 +451,7 @@ const PRODUCTS = [
   {
     id: "P002",
     name: "Set pulseras x2 Durazno",
-    price: 5000,
+    price: 4900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Rosa", "Nude"],
@@ -441,7 +471,7 @@ const PRODUCTS = [
   {
     id: "U024",
     name: "Press On French Simples",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Nude", "Blanco"],
@@ -451,7 +481,7 @@ const PRODUCTS = [
   {
     id: "U025",
     name: "Press On Amorosa",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa", "Rojo", "Blanco"],
@@ -461,7 +491,7 @@ const PRODUCTS = [
   {
     id: "U027",
     name: "Press On Ballerina",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rojo", "Dorado", "Blanco", "Nude"],
@@ -471,7 +501,7 @@ const PRODUCTS = [
   {
     id: "P009",
     name: "Set pulseras x2 Sunshine",
-    price: 5000,
+    price: 4900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Amarillo"],
@@ -481,7 +511,7 @@ const PRODUCTS = [
   {
     id: "U027",
     name: "Press On Aqua Pop",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rojo", "Rosa", "Blanco", "Amarillo", "Azul"],
@@ -491,7 +521,7 @@ const PRODUCTS = [
   {
     id: "U028",
     name: "Press On Coral",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rojo", "Rosa", "Blanco", "Dorado", "Nude"],
@@ -511,7 +541,7 @@ const PRODUCTS = [
   {
     id: "P004",
     name: "Set pulseras x2 Pradera",
-    price: 5000,
+    price: 4900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Verde", "Blanco"],
@@ -521,7 +551,7 @@ const PRODUCTS = [
   {
     id: "P005",
     name: "Set pulseras x2 Chromatica",
-    price: 5000,
+    price: 4900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Plateado", "Blanco"],
@@ -561,7 +591,7 @@ const PRODUCTS = [
   {
     id: "P013",
     name: "Set pulseras x2 Mist",
-    price: 5000,
+    price: 4900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Plateado"],
@@ -571,7 +601,7 @@ const PRODUCTS = [
   {
     id: "P014",
     name: "Set pulseras x2 Nocturna",
-    price: 5000,
+    price: 4900,
     category: "bijou",
     categoryLabel: "Bijou",
     colors: ["Plateado", "Negro"],
@@ -691,7 +721,7 @@ const PRODUCTS = [
   {
     id: "U029",
     name: "Press On Butterfly Whisper",
-    price: 5000,
+    price: 4900,
     category: "presson",
     categoryLabel: "Press On",
     colors: ["Rosa", "Blanco"],

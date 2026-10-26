@@ -274,6 +274,28 @@ input {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Otras secciones */
+.section-container{
+  position: relative;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 12px 56px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 1.5rem;
+}
+
+.section-text{
+  font-size: 1rem;
+  color: var(--text-soft);
+  max-width: 480px;
+  margin: 0 auto 24px;
+  animation: fade-in 1000ms ease both;
+}
+
 
 /* Banners/anuncios */
 .anuncio {
@@ -308,10 +330,6 @@ input {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 14px;
-}
-
-.section-title {
-  font-size: 1.5rem;
 }
 
 .results-count {
