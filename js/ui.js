@@ -60,9 +60,29 @@ const UI = {
     colorsWrap.className = "product-colors";
     product.colors.forEach((color) => colorsWrap.appendChild(this.buildColorDot(color)));
 
+ 
+    const { original, final, hasDiscount, label } = Pricing.get(product);
+ 
+    if (hasDiscount) {
+      const badge = document.createElement("span");
+      badge.className = "discount-badge";
+      badge.textContent = label;
+      media.appendChild(badge);
+    }
+ 
     const price = document.createElement("p");
     price.className = "product-price";
-    price.textContent = WhatsApp.formatPrice(product.price);
+    if (hasDiscount) {
+      const old = document.createElement("s");
+      old.className = "price-old";
+      old.textContent = WhatsApp.formatPrice(original);
+      const now = document.createElement("span");
+      now.className = "price-now";
+      now.textContent = WhatsApp.formatPrice(final);
+      price.append(old, now);
+    } else {
+      price.textContent = WhatsApp.formatPrice(final);
+    }
 
     const addBtn = document.createElement("button");
     addBtn.className = "add-to-cart-btn";

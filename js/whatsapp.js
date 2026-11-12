@@ -16,7 +16,10 @@ const WhatsApp = {
       lines.push(item.name);
       lines.push(`ID: ${item.id}`);
       lines.push(`Cantidad: ${item.quantity}`);
-      lines.push(`Precio unitario: ${this.formatPrice(item.price)}`);
+            const antes = item.originalPrice && item.originalPrice > item.price
+        ? ` (antes ${this.formatPrice(item.originalPrice)})`
+        : "";
+      lines.push(`Precio unitario: ${this.formatPrice(item.price)}${antes}`);
       lines.push(`Subtotal: ${this.formatPrice(subtotal)}`);
       lines.push(" ");
     });

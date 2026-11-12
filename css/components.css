@@ -232,6 +232,17 @@
   padding-top: 6px;
 }
 
+/* Descuentos */
+.discount-badge {
+  position: absolute; top: 10px; right: 10px;
+  background: #e63946; color: #fff;
+  padding: 3px 9px; border-radius: 999px;
+  font-size: .78rem; font-weight: 700; z-index: 2;
+}
+.price-old { color: #9a8a8a; font-weight: 400; font-size: .85em; margin-right: 6px; }
+.price-now { color: #e63946; font-weight: 700; }
+
+
 .add-to-cart-btn {
   margin-top: 10px;
   background: var(--green-dark);

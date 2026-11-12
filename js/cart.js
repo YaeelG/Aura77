@@ -6,6 +6,21 @@ const Cart = {
     this._notify();
   },
 
+	// Actualiza precios de lo guardado en localStorage con los precios/descuentos actuales.
+  // Quita productos que ya no existen en el catalogo.
+  _syncWithCatalog() {
+    this.items = this.items
+      .map((item) => {
+        const product = PRODUCTS.find((p) => p.id === item.id);
+        if (!product) return null;
+        const { final, original } = Pricing.get(product);
+        return { ...item, name: product.name, image: product.image, price: final, originalPrice: original };
+      })
+      .filter(Boolean);
+    Storage.saveCart(this.items);
+  },
+ 
+
  
   // Agrega un producto al carrito.
   addItem(product) {    
@@ -14,10 +29,12 @@ const Cart = {
     if (existing) {
       existing.quantity += 1;
     } else {
+      const { final, original } = Pricing.get(product);
       this.items.push({
         id: product.id,
         name: product.name,
-        price: product.price,
+        price: final,
+        originalPrice: original,
         image: product.image,
         quantity: 1,
       });
